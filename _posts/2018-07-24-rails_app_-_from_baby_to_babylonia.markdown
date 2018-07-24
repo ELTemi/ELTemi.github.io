@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails App - From Baby to Babylonia!"
-date:       2018-07-24 04:59:30 +0000
+date:       2018-07-24 00:59:31 -0400
 permalink:  rails_app_-_from_baby_to_babylonia
 ---
 
@@ -24,6 +24,9 @@ The caregiver is the one to create the log for each baby and can input time the 
 Each baby has its own attributes when the baby was added to the mom’s profile including name, date of birth, allergies, who else is authorized to pick up the baby among others. I created a nested route between the baby and the dailylog so that you can view all the dailylogs for each baby. An example would be for baby with Id: 2, you can go directly to babies/2/dailylogs or babies/2/dailylogs/5.
 
 Other features includes using bcrypt to secure the password and ensures the user is authenticated before successfully logging in. You can also log in through Facebook. I included a filter on the caregivers index page if you wanted to view all the caregivers with the <5 years, 5-10years and >10years. 
+Upgrades for version 2
+- I hope to include availability for the caregiver so that when a mom wants to choose a caregiver, she will only see caregivers that are available.
+
 I will continue to expand the features of this project as I continue to learn new things. Moving on to JavaScript!!!
 
 You can view my app using the repo link below
