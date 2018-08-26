@@ -13,10 +13,10 @@ To spruce up my Ruby on Rails Project, Babylonia, I have added some new function
    
 	 
  
-- The baby’s show API
+- The baby’s show API.
 When a mom or caregiver has many babies, to view each baby's profile, each owner will have to always go back to their profile page and click on the baby's name. With this new feature, each owner is able to view each babies profile from the  baby's show page by just clicking a ‘Next Baby’ button. First, I created a method to extract all babies belonging to either the a mom or caregiver depending on who is logged in. This array of babies is then used to define which baby to show after the Next baby button is clicked.
  
-- The New baby profile form
+- The New baby profile form.
 This renders the details of a new baby created on submit without refreshing the Mom's show page.  When mom fills the new baby form, she will get information about this new baby after submitting the form. The responses from the form are transformed into JSON responses which is then converted to a Javascript Prototype Object. The result is then appended to the DOM using a function added to the prototype which displays a sucess statement and some of the baby's information.
 
 
