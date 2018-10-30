@@ -1,15 +1,14 @@
 # Site settings
-title: 
+author: Temitope Elodimuor
+title: Full stack Mom
 header-img: img/home-bg.png
 email: ruth_olukunle@yahoo.com
-copyright_name: ELTemi
+copyright_name: Temitope Elodimuor
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Learning to code as a mom
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ELTemi
-learn_profile: ELTemi
-email_username: ruth_olukunle@yahoo.com
 
 # Build settings
 markdown: kramdown
